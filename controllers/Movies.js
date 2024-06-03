@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const user = require('../models/usermodel')
 const movieplaylist = require('../models/movielist')
-const moviedetails = require('../models/moviedetails')
+
 
 
 exports.Createplaylist = async (req,res) => {
